@@ -1,0 +1,13 @@
+{
+  "name": "atom-carbonightblue",
+  "theme": "syntax",
+  "private":"false",
+  "version": "0.0.0",
+  "description": "A carbonightblue theme for Atom based off of Dayle Rees's Colour Schemes.
+",
+  "repository": "https://github.com/Black-Milk/atom-carbonightblue",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

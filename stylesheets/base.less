@@ -1,0 +1,173 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #3B3633;
+}
+
+.comment {
+  color: #4B4B4B;
+}
+
+.string {
+  color: #4D81A5;
+}
+
+.constant.numeric {
+  color: #4D81A5;
+}
+
+.constant.language {
+  color: #979797;
+}
+
+.constant.character, .constant.other {
+  color: #979797;
+}
+
+.variable {
+}
+
+.keyword {
+}
+
+.storage {
+  color: #9E9E9E;
+}
+
+.storage.type {
+  color: #979797;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #979797;
+}
+
+.entity.other.inherited-class {
+  text-decoration: underline;
+}
+
+.entity.name.function {
+  color: #979797;
+}
+
+.variable.parameter {
+  color: #979797;
+}
+
+.entity.name.tag {
+  color: #979797;
+}
+
+.entity.other.attribute-name {
+  color: #C4C4C4;
+}
+
+.support.function {
+  color: #979797;
+}
+
+.support.constant {
+  color: #979797;
+}
+
+.support.type, .support.class {
+  color: #979797;
+}
+
+.support.other.variable {
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #00A8C6;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #8FBE00;
+}
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+  color: #CFCFC2;
+}
+
+.meta.diff, .meta.diff.header {
+  color: #75715E;
+}
+
+.markup.deleted {
+  color: #00A8C6;
+}
+
+.markup.inserted {
+  color: #A6E22E;
+}
+
+.markup.changed {
+  color: #E6DB74;
+}
+
+.constant.numeric.line-number.find-in-files:not(.match) {
+  color: rgba(143, 190, 0, 0.63);
+}
+
+.entity.name.filename.find-in-files {
+  color: #E6DB74;
+}
+
+.string .punctuation.section.embedded.ruby {
+  color: #d9d9d9;
+}
+
+.string .source.ruby.embedded.source {
+  color: #1A4E72;
+}
