@@ -3,7 +3,6 @@
 A carbonightblue theme for Atom based off of Dayle Rees's Colour Schemes.
 
 ###Installation:
-###Installation:
 In the terminal type:
 ```sh
 apm install atom-carbonightblue
